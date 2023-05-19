@@ -1,0 +1,6 @@
+我这边使用这种方式可成功加载(参考至) https://github.com/ccmostmosthandsome/vue_cesium/tree/master
+
+```
+import('@dvgis/cesium-map/build/cesium-map/cesium-map.min')
+viewer.imageryLayers.addImageryProvider(new Cesium.AmapImageryProvider(options))//高德
+```
